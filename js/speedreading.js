@@ -5,7 +5,7 @@
 ***************************************************/
 
 speedreading = {
-    position: 0.260,
+    position: 0.26,
     dottime: 800,
     commatime: 300,
     defaulttime: 180,
@@ -26,7 +26,7 @@ speedreading = {
                 });
             }
 
-            speedreading.text = text;
+            speedreading.text = text.trim();
             speedreading.textarray = speedreading.text.replace(/\n/g, ' ').replace(/-/g, '- ').split(' ');
             speedreading.i = 0;
             speedreading.read();

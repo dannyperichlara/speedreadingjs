@@ -5,12 +5,14 @@
   <script src='js/speedreading.js'></script>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
-<body>
+<body style="padding: 20px; font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;">
+<h1>SpeedReadingJS</h1>
+<h2>Example: Edgar Allan Poe</h2>
+<p><strong>Instructions</strong>: Click on the [Read it!] button to open the Speed Reader. Focus your eyes on the yellow letter and read.</p>
 <textarea class="text" style="width: 600px; height: 200px; font-size: 16px;">
 Edgar Allan Poe was an American author, poet, editor, and literary critic, considered part of the American Romantic Movement. Best known for his tales of mystery and the macabre, Poe was one of the earliest American practitioners of the short story, and is generally considered the inventor of the detective fiction genre. He is further credited with contributing to the emerging genre of science fiction. He was the first well-known American writer to try to earn a living through writing alone, resulting in a financially difficult life and career.
 </textarea><br>
-<button class="read" style="padding: 20px; background-color: #6699CC; display: inline-block">Read it!</button>
-
+<button class="read" style="padding: 20px; margin-top: 20px; background-color: #6699CC; display: inline-block">Read it!</button>
 <script>
   $(document).ready(function(e) {
     $('.read').click(function(e) {
@@ -18,6 +20,5 @@ Edgar Allan Poe was an American author, poet, editor, and literary critic, consi
     });
   });
 </script>
-
 </body>
 </html>

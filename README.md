@@ -5,7 +5,7 @@ Add speed reading functionality to your website.
 
 # Installation
 
-SpeedReadingJS depends only on jQuery. Link, jQuery and the *speedtest.js* file and SpeedTestJS will be ready to use.
+SpeedReadingJS depends only on jQuery. Link *jQuery* and the *speedtest.js* file and SpeedTestJS will be ready to use.
 
 ```javascript
 <script src='js/jquery.js'></script>
@@ -16,7 +16,10 @@ To start reading, just call the javascript speedreading.read('some text') functi
 
 ```javascript
 <script>
-  speedreading.read('Add speed reading functionality to your website. SpeedReadingJS depends only on jQuery. Link, jQuery and the speedtest.js file and SpeedTestJS will be ready to use it.');
+  speedreading.read('Add speed reading functionality
+    to your website.SpeedReadingJS depends only on jQuery.
+    Link jQuery and the speedtest.js file and SpeedTestJS
+    will be ready to use it.');
 </script>
 ```
 
@@ -25,9 +28,21 @@ To start reading, just call the javascript speedreading.read('some text') functi
 You can customize some properties of the speedreading object:
 
 ```javascript
-  speedreading.position = 0.260; // Sets the position (in percentaje of the word) where eyes will fix their attention
-  speedreading.dottime = 800; // Sets the time of punctuation dots lag.
-  speedreading.commatime = 300; // Sets the time of punctuation commas lag.
-  speedreading.defaulttime = 180; // Sets the average time in milliseconds between words. The time that ong and short words will remain visible as a factor of this number.
-  speedreading.text = 'This is a default text'; // Sets a default text for speedreading.read() with no parameters
+  // Set the position (in percentaje of the word) where
+  // eyes will focus their attention
+  speedreading.position = 0.260; 
+
+  // Set the lag time of punctuation dots.
+  speedreading.dottime = 800;
+  
+  // Set the lag time of punctuation commas.
+  speedreading.commatime = 300;
+
+  // Set the average time in milliseconds between words.
+  // The time that ong and short words will
+  // remain visible as a factor of this number.
+  speedreading.defaulttime = 180;
+
+  // Set a default text for speedreading.read() with no parameters
+  speedreading.text = 'This is a default text';
 ```
