@@ -28,6 +28,6 @@ You can customize some properties of the speedreading object:
   speedreading.position = 0.260; // Sets the position (in percentaje of the word) where eyes will fix their attention
   speedreading.dottime = 800; // Sets the time of punctuation dots lag.
   speedreading.commatime = 300; // Sets the time of punctuation commas lag.
-  speedreading.defaulttime = 180; // Sets the average time in milliseconds between words. The time that ong and short words will remain visible is a factor of this number.
+  speedreading.defaulttime = 180; // Sets the average time in milliseconds between words. The time that ong and short words will remain visible as a factor of this number.
   speedreading.text = 'This is a default text'; // Sets a default text for speedreading.read() with no parameters
 ```
