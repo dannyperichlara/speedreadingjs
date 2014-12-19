@@ -1,3 +1,9 @@
+/**************************************************
+  Speed Reading JS. Created by Danny Perich Lara 
+  URL: www.dannyperichlara.cl
+  GitHUB: https://github.com/dannyperichlara
+***************************************************/
+
 speedreading = {
     position: 0.260,
     dottime: 800,
