@@ -31,15 +31,15 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>
-<a id="speedreadingjs" class="anchor" href="#speedreadingjs" aria-hidden="true"><span class="octicon octicon-link"></span></a>SpeedReadingJS</h3>
+        <h1>
+<a id="speedreadingjs" class="anchor" href="#speedreadingjs" aria-hidden="true"><span class="octicon octicon-link"></span></a>SpeedReadingJS</h1>
 
 <p>Add speed reading functionality to your website.</p>
 
 <h1>
 <a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h1>
 
-<p>SpeedReadingJS depends only on jQuery. Link, jQuery and the <em>speedtest.js</em> file and SpeedTestJS will be ready to use.</p>
+<p>SpeedReadingJS depends only on jQuery. Link <em>jQuery</em> and the <em>speedtest.js</em> file and SpeedTestJS will be ready to use.</p>
 
 <div class="highlight highlight-javascript"><pre><span class="pl-k">&lt;</span>script src<span class="pl-k">=</span><span class="pl-s1"><span class="pl-pds">'</span>js/jquery.js<span class="pl-pds">'</span></span><span class="pl-k">&gt;&lt;</span>/script<span class="pl-k">&gt;</span>
 <span class="pl-k">&lt;</span>script src<span class="pl-k">=</span><span class="pl-s1"><span class="pl-pds">'</span>js/speedreading.js<span class="pl-pds">'</span></span><span class="pl-k">&gt;&lt;</span>/script<span class="pl-k">&gt;</span></pre></div>
@@ -47,7 +47,10 @@
 <p>To start reading, just call the javascript speedreading.read('some text') function</p>
 
 <div class="highlight highlight-javascript"><pre><span class="pl-k">&lt;</span>script<span class="pl-k">&gt;</span>
-  speedreading.read(<span class="pl-s1"><span class="pl-pds">'</span>Add speed reading functionality to your website. SpeedReadingJS depends only on jQuery. Link, jQuery and the speedtest.js file and SpeedTestJS will be ready to use it.<span class="pl-pds">'</span></span>);
+  speedreading.read(<span class="pl-s1"><span class="pl-pds">'</span>Add speed reading functionality</span>
+<span class="pl-s1">    to your website.SpeedReadingJS depends only on jQuery.</span>
+<span class="pl-s1">    Link jQuery and the speedtest.js file and SpeedTestJS</span>
+<span class="pl-s1">    will be ready to use it.<span class="pl-pds">'</span></span>);
 <span class="pl-k">&lt;</span>/script<span class="pl-k">&gt;</span></pre></div>
 
 <h1>
@@ -55,11 +58,23 @@
 
 <p>You can customize some properties of the speedreading object:</p>
 
-<div class="highlight highlight-javascript"><pre>  speedreading.position <span class="pl-k">=</span> <span class="pl-c1">0.260</span>; <span class="pl-c">// Sets the position (in percentaje of the word) where eyes will fix their attention</span>
-  speedreading.dottime <span class="pl-k">=</span> <span class="pl-c1">800</span>; <span class="pl-c">// Sets the time of punctuation dots lag.</span>
-  speedreading.commatime <span class="pl-k">=</span> <span class="pl-c1">300</span>; <span class="pl-c">// Sets the time of punctuation commas lag.</span>
-  speedreading.defaulttime <span class="pl-k">=</span> <span class="pl-c1">180</span>; <span class="pl-c">// Sets the average time in milliseconds between words. The time that ong and short words will remain visible as a factor of this number.</span>
-  speedreading.<span class="pl-sc">text</span> <span class="pl-k">=</span> <span class="pl-s1"><span class="pl-pds">'</span>This is a default text<span class="pl-pds">'</span></span>; <span class="pl-c">// Sets a default text for speedreading.read() with no parameters</span></pre></div>
+<div class="highlight highlight-javascript"><pre>  <span class="pl-c">// Set the position (in percentaje of the word) where</span>
+  <span class="pl-c">// eyes will focus their attention</span>
+  speedreading.position <span class="pl-k">=</span> <span class="pl-c1">0.260</span>; 
+
+  <span class="pl-c">// Set the lag time of punctuation dots.</span>
+  speedreading.dottime <span class="pl-k">=</span> <span class="pl-c1">800</span>;
+
+  <span class="pl-c">// Set the lag time of punctuation commas.</span>
+  speedreading.commatime <span class="pl-k">=</span> <span class="pl-c1">300</span>;
+
+  <span class="pl-c">// Set the average time in milliseconds between words.</span>
+  <span class="pl-c">// The time that long and short words will</span>
+  <span class="pl-c">// remain visible as a factor of this number.</span>
+  speedreading.defaulttime <span class="pl-k">=</span> <span class="pl-c1">180</span>;
+
+  <span class="pl-c">// Set a default text for speedreading.read() with no parameters</span>
+  speedreading.<span class="pl-sc">text</span> <span class="pl-k">=</span> <span class="pl-s1"><span class="pl-pds">'</span>This is a default text<span class="pl-pds">'</span></span>;</pre></div>
       </section>
     </div>
 
