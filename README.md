@@ -3,7 +3,7 @@ SpeedReadingJS
 
 Add speed reading functionality to your website or app.
 
-# What are the main differences between SpeedReadingJS and other solutions?
+### What are the main differences between SpeedReadingJS and other solutions?
 
 Most of the speed reading code is written based on Spritz (http://www.spritzinc.com). While Spritz has an important scientific background, but it also has some basic characteristics that are annoying for most of readers:
 
