@@ -17,7 +17,7 @@ To start reading, just call the javascript speedreading.read('some text') functi
 ```javascript
 <script>
   speedreading.read('Add speed reading functionality
-    to your website.SpeedReadingJS depends only on jQuery.
+    to your website. SpeedReadingJS depends only on jQuery.
     Link jQuery and the speedreading.js file and SpeedReadingJS
     will be ready to use it.');
 </script>
