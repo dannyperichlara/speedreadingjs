@@ -8,8 +8,8 @@ Add speed reading functionality to your website or app.
 Most of the speed reading code is written based on Spritz (http://www.spritzinc.com). Spritz has an important scientific background, but it also has some basic characteristics that are annoying for most of readers:
 
 * They are inserted somewhere in the middle of the webpage. This encourages the readers to lose their attention.
-* They have a white background, black text and a red letter. The high level of contrast between this colors is the main reason for the feeling of eye fatigue.
-* The font is not good for reading
+* They have a white background, black text and a red letter. The high level of contrast between these colors is the main reason for the feeling of eye fatigue.
+* The font is not good for reading.
 * The font size is too big.
 
 SpeedReadingJS fixes this problems with simple solutions.
