@@ -8,7 +8,7 @@ speedreading = {
     position: 0.26,
     dottime: 800,
     commatime: 300,
-    defaulttime: 180,
+    defaulttime: 150,
     text: '',
     read: function(text) {
         if (typeof text != 'undefined') {

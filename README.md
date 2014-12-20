@@ -1,18 +1,18 @@
 SpeedReadingJS
 ==============
 
-Add speed reading functionality to your website.
+Add speed reading functionality to your website or app.
 
 # Installation
 
-SpeedReadingJS depends only on jQuery. Link *jQuery* and the *speedreading.js* file and SpeedReadingJS will be ready to use.
+SpeedReadingJS depends only on jQuery. Link *jQuery* and the *speedreading.js* file and SpeedReadingJS will be ready to use:
 
 ```javascript
 <script src='js/jquery.js'></script>
 <script src='js/speedreading.js'></script>
 ```
 
-To start reading, just call the javascript speedreading.read('some text') function
+To start reading, just call the javascript speedreading.read('some text') function:
 
 ```javascript
 <script>
@@ -40,7 +40,7 @@ You can customize some properties of the speedreading object:
 
   // Set the average time in milliseconds between words.
   // The time that long and short words will
-  // remain visible as a factor of this number.
+  // remain visible is a factor of this number.
   speedreading.defaulttime = 180;
 
   // Set a default text for speedreading.read() with no parameters
